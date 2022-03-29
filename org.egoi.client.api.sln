@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-VisualStudioVersion = 12.0.0.0
-MinimumVisualStudioVersion = 10.0.0.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.egoi.client.api", "src\org.egoi.client.api\org.egoi.client.api.csproj", "{E2874125-CC79-4311-B9A1-16518B61A12D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.egoi.client.api.Test", "src\org.egoi.client.api.Test\org.egoi.client.api.Test.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
@@ -23,5 +23,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A7D8F66-D01A-4CB3-8BB3-3F147EA29170}
 	EndGlobalSection
 EndGlobal
