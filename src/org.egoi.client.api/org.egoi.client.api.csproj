@@ -9,8 +9,14 @@ The version of the OpenAPI document: 3.0.0
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>Library</OutputType>
-		<TargetFrameworks>net461; net6.0</TargetFrameworks>
+		<TargetFrameworks>net6.0; net461</TargetFrameworks>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(TargetFramework)' == 'net461'">
+		<DefineConstants>NET461;NETFRAMEWORK</DefineConstants>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(TargetFramework)' == 'net6.0'">
+		<DefineConstants>NET6;NET</DefineConstants>
 	</PropertyGroup>
 	<PropertyGroup>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
