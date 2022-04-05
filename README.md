@@ -1,4 +1,4 @@
-This branch is a port intended to be compiled in .Net 6 and .Net with all its dependencies updated.
+This branch is a port intended to be compiled in .Net 6 and .Net Framework 4.6.1 with all its dependencies updated.
 
 It would have been ideal to automatically generate an http client from the OpenApi schema, but the code generator failed to resolve some data model references.
 
