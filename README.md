@@ -1,3 +1,7 @@
+This branch is a port intended to be compiled in .Net 6 and .Net with all its dependencies updated.
+
+It would have been ideal to automatically generate an http client from the OpenApi schema, but the code generator failed to resolve some data model references.
+
 ![E-goi](https://www.e-goi.com/wp-content/themes/egoi2019/imgs/svg/logo-egoi.svg)
 
 Almost anything you can do in E-goi, you can do with our API.
