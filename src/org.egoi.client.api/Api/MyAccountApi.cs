@@ -384,10 +384,6 @@ namespace org.egoi.client.api.Api
         }
 
         /// <summary>
-            RestResponse localVarResponse = (RestResponse) this.Configuration.ApiClient.CallApi(localVarPath,
-                Method.Post, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
-            RestResponse localVarResponse = (RestResponse) await this.Configuration.ApiClient.CallApiAsync(localVarPath,
-                Method.Post, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
         /// Get My Account Info My Account Info
         /// </summary>
         /// <exception cref="org.egoi.client.api.Client.ApiException">Thrown when fails to make API call</exception>
