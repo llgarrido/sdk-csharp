@@ -15,7 +15,7 @@ The version of the OpenAPI document: 3.0.0
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>org.egoi.sdk</PackageId>
-		<Version>2.0.0.0</Version>
+		<Version>2.1.0.0</Version>
 		<Authors>E-goi</Authors>
 		<Company>E-goi</Company>
 		<Title>E-goi SDK</Title>
